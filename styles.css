@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: darkred;
+    text-align: center;
+    font-size: larger;
+    font-family: Times, serif;
+    margin: auto;
+    border: solid 10px darkred;
+    width: 50%;
+    height: auto;
+}
+
+a:visited {
+    color:darkred;
+}
+
+a:hover {
+    color: rgb(197, 0, 0);
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+#return {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
